@@ -1,0 +1,61 @@
+Pseudo code for producer process:
+
+    do {
+            ...
+            /* produce an item in next_produced */
+            ...
+
+        wait(empty);
+        wait(mutex);
+
+            ...
+            /* add next produced to the buffer */
+            ...
+
+        signal(mutex);
+        signal(full);
+
+    } while (true);
+
+-------------------------------------------------------------------
+
+Pseudo code for consumer process:
+
+do {
+    wait(full);
+    wait(mutex);
+
+        ...
+    /* remove an item from buffer to next_consumed */
+        ...
+    signal(mutex);
+    signal(empty);
+
+        ...
+    /* consume the item in next consumed */
+
+        ...    
+} while (true);
+
+---------------------------------------------------------------------
+
+Pseudo code for enqueue_item
+
+enqueue_item(item){
+    ...
+    add item
+    ...
+}
+
+-------------------------------------------
+
+Pseudo code for dequeue_item
+
+enqueue_item(item){
+    ...
+    remove item
+    ...
+}
+----------------------------------------
+
+

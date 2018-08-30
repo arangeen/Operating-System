@@ -1,0 +1,178 @@
+OUTPUT GOES HERE:
+------------------
+
+
+Ahmads-MacBook-Pro-2:part2 AhmadRangeen$ ./a.out 7 5 3 15 1 1
+
+Current time : Sat Aug  4 22:39:22 2018
+
+
+
+
+                        Number of Buffers :  7
+                      Number of Producers :  5
+                      Number of Consumers :  3
+Number of items produced by each producer :  15
+Number of items consumed by each consumer :  25
+                         Over consume on? :  1
+                      Over consume amount :  27
+      Time each Producer Sleeps (seconds) :  1
+      Time each Consumer Sleeps (seconds) :  1
+
+0 was produced by producer->    0
+1 was produced by producer->    1
+2 was produced by producer->    2
+3 was produced by producer->    3
+4 was produced by producer->    4
+4 was consumed by consumer->   0
+3 was consumed by consumer->   1
+2 was consumed by consumer->   2
+5 was produced by producer->    0
+6 was produced by producer->    1
+7 was produced by producer->    2
+8 was produced by producer->    3
+9 was produced by producer->    4
+9 was consumed by consumer->   0
+8 was consumed by consumer->   1
+7 was consumed by consumer->   2
+10 was produced by producer->    0
+11 was produced by producer->    1
+12 was produced by producer->    2
+13 was produced by producer->    3
+14 was produced by producer->    4
+14 was consumed by consumer->   0
+13 was consumed by consumer->   1
+12 was consumed by consumer->   2
+15 was produced by producer->    0
+16 was produced by producer->    1
+17 was produced by producer->    2
+18 was produced by producer->    3
+19 was produced by producer->    4
+19 was consumed by consumer->   0
+18 was consumed by consumer->   1
+17 was consumed by consumer->   2
+20 was produced by producer->    0
+21 was produced by producer->    1
+22 was produced by producer->    2
+23 was produced by producer->    3
+24 was produced by producer->    4
+24 was consumed by consumer->   0
+23 was consumed by consumer->   1
+22 was consumed by consumer->   2
+25 was produced by producer->    0
+26 was produced by producer->    1
+27 was produced by producer->    2
+28 was produced by producer->    3
+29 was produced by producer->    4
+29 was consumed by consumer->   0
+28 was consumed by consumer->   1
+27 was consumed by consumer->   2
+30 was produced by producer->    0
+31 was produced by producer->    1
+32 was produced by producer->    2
+33 was produced by producer->    3
+34 was produced by producer->    4
+34 was consumed by consumer->   0
+33 was consumed by consumer->   1
+32 was consumed by consumer->   2
+35 was produced by producer->    0
+36 was produced by producer->    1
+37 was produced by producer->    2
+38 was produced by producer->    3
+39 was produced by producer->    4
+39 was consumed by consumer->   0
+38 was consumed by consumer->   1
+37 was consumed by consumer->   2
+40 was produced by producer->    0
+41 was produced by producer->    1
+42 was produced by producer->    2
+43 was produced by producer->    3
+44 was produced by producer->    4
+44 was consumed by consumer->   0
+43 was consumed by consumer->   1
+42 was consumed by consumer->   2
+45 was produced by producer->    0
+46 was produced by producer->    1
+47 was produced by producer->    2
+48 was produced by producer->    3
+49 was produced by producer->    4
+49 was consumed by consumer->   0
+48 was consumed by consumer->   1
+47 was consumed by consumer->   2
+50 was produced by producer->    0
+51 was produced by producer->    1
+52 was produced by producer->    2
+53 was produced by producer->    3
+54 was produced by producer->    4
+54 was consumed by consumer->   0
+53 was consumed by consumer->   1
+52 was consumed by consumer->   2
+55 was produced by producer->    0
+56 was produced by producer->    1
+57 was produced by producer->    2
+58 was produced by producer->    3
+59 was produced by producer->    4
+59 was consumed by consumer->   0
+58 was consumed by consumer->   1
+57 was consumed by consumer->   2
+60 was produced by producer->    0
+61 was produced by producer->    1
+62 was produced by producer->    2
+63 was produced by producer->    3
+64 was produced by producer->    4
+64 was consumed by consumer->   0
+63 was consumed by consumer->   1
+62 was consumed by consumer->   2
+65 was produced by producer->    0
+66 was produced by producer->    1
+67 was produced by producer->    2
+68 was produced by producer->    3
+69 was produced by producer->    4
+69 was consumed by consumer->   0
+68 was consumed by consumer->   1
+67 was consumed by consumer->   2
+70 was produced by producer->    0
+71 was produced by producer->    1
+72 was produced by producer->    2
+73 was produced by producer->    3
+74 was produced by producer->    4
+74 was consumed by consumer->   0
+73 was consumed by consumer->   1
+72 was consumed by consumer->   2
+71 was consumed by consumer->   0
+70 was consumed by consumer->   1
+66 was consumed by consumer->   2
+65 was consumed by consumer->   0
+61 was consumed by consumer->   1
+60 was consumed by consumer->   2
+56 was consumed by consumer->   0
+55 was consumed by consumer->   1
+51 was consumed by consumer->   2
+50 was consumed by consumer->   0
+46 was consumed by consumer->   1
+45 was consumed by consumer->   2
+41 was consumed by consumer->   0
+40 was consumed by consumer->   1
+36 was consumed by consumer->   2
+35 was consumed by consumer->   0
+31 was consumed by consumer->   1
+30 was consumed by consumer->   2
+26 was consumed by consumer->   0
+25 was consumed by consumer->   1
+21 was consumed by consumer->   2
+20 was consumed by consumer->   0
+16 was consumed by consumer->   1
+15 was consumed by consumer->   2
+11 was consumed by consumer->   0
+10 was consumed by consumer->   1
+6 was consumed by consumer->   2
+5 was consumed by consumer->   0
+1 was consumed by consumer->   1
+0 was consumed by consumer->   2
+Current time : Sat Aug  4 22:41:52 2018
+
+Producer Array: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 
+Consumer Array: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 
+Consumer and Producer Arrays Match!
+
+Total Runtime: 150 secs
